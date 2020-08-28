@@ -1,0 +1,17 @@
+#version 330 core
+
+layout (location = 0) in vec4 position;
+layout (location = 1) in vec4 color;
+layout (location = 2) in vec2 coords;
+
+uniform mat4 matrix;
+
+out vec4 col;
+out vec2 texCoords;
+
+void main()
+{
+    col = color;
+    texCoords = coords;
+    gl_Position = matrix * position;
+}
