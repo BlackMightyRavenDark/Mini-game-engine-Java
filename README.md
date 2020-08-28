@@ -4,6 +4,7 @@ Mini game engine Java
 Demonstrates a minimal Java code needed to create the basic OpenGL window and render some primitives.
 
 Changelog:
+
 Version 0.0.1-alpha
   * First release.
   * Makes resizeable game window.
